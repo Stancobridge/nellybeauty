@@ -1,0 +1,264 @@
+/* #3488FF */
+/* #F0F0F0 */
+
+/* Link font family */
+@font-face {
+  src: url(../fonts/fontfamily/Noto_Sans_JP/NotoSansJP-Regular.otf);
+  font-family: "NotoSansJP-Regular";
+}
+
+@font-face {
+  src: url(../fonts/fontfamily/Noto_Sans_JP/NotoSansJP-Bold.otf);
+  font-family: "NotoSansJP-Bold";
+}
+@font-face {
+  src: url(../fonts/fontfamily/Noto_Sans_JP/NotoSansJP-Thin.otf);
+  font-family: "NotoSansJP-Thin";
+}
+
+a {
+  color: #924812;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f0f0f0;
+  font-family: NotoSansJP-Regular;
+  font-size: 17px;
+  background-color: rgb(224, 224, 224);
+}
+
+.body-cont {
+  max-width: 1000px;
+  margin: auto;
+  background-color: white;
+  /* padding: 10px; */
+}
+
+.checkout-cont {
+  background-color: white;
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 8px;
+  box-shadow: 15px 50px 40px rgb(185, 185, 185);
+  display: flex;
+}
+
+.checkout-left {
+  width: 35%;
+  background-color: #3488ff;
+  color: white;
+  border-radius: 8px 0px 0px 8px;
+  padding: 6px;
+}
+
+.checkout-icon .fas {
+  font-size: 40px;
+}
+.checkout-left-pad {
+  padding: 35px;
+  padding-bottom: 10px;
+}
+
+.product-title {
+  font-family: NotoSansJP-Bold;
+}
+
+.checkout-product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.185);
+  padding-bottom: 30px;
+}
+.checkout-product:last-child {
+  border-bottom: none;
+}
+.product-owner {
+  font-size: 12px;
+  color: rgb(230, 230, 230);
+}
+
+.checkout-total {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.nav-link {
+  border: 1px solid #924812;
+  border-radius: 6px;
+  padding: 6px;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  margin: 4px;
+  color: #924812 !important;
+}
+.navbar-brand {
+  color: #924812 !important;
+}
+.slider {
+  padding: 10px;
+  border: 1px solid #924812;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.splide {
+  height: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.slider-cont {
+  border-radius: 6px;
+  position: relative;
+}
+.slider-cont img {
+  width: 100%;
+  min-height: 380px;
+  border-radius: 6px;
+  /* position: absolute; */
+}
+.slider-title {
+  color: white;
+  font-size: 28px;
+
+  font-family: NotoSansJP-Bold;
+}
+.title-cont {
+  top: 250px;
+  width: 70%;
+  padding: 10px;
+  left: 20px;
+  position: absolute;
+  background-color: #924712c5;
+}
+
+.slider-desc {
+  color: white;
+  margin-top: 10px;
+}
+
+.slider .btn-outline-primary {
+  color: white;
+  border-color: white;
+}
+
+.slider .btn-outline-primary:hover {
+  background-color: transparent;
+}
+
+.icon {
+  width: 25%;
+  text-align: center;
+  padding: 20px;
+  font-size: 60px;
+  border: 1px solid #924812;
+  color: #924812;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.tip-text {
+  background-color: rgb(241, 240, 240);
+  padding: 20px;
+  border-radius: 10px;
+}
+.services h3,
+.services > p {
+  text-align: center;
+}
+.services h3 {
+  width: 200px;
+  margin: auto;
+  border: 1px solid #924812;
+  color: #924812;
+  padding: 6px;
+  border-radius: 30px;
+}
+.service-line {
+  width: 40px;
+  margin: auto;
+  padding: 2px;
+  margin-top: 10px;
+  background-color: #924812;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #924812;
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #924812;
+  outline: none;
+  border-color: #924812;
+}
+
+.product-rate {
+  background-color: #924812;
+  color: white;
+  text-align: center;
+}
+.product-rate .rate-percent {
+  border-radius: 100%;
+  border: 2px solid white;
+  width: 100px;
+  height: 100px;
+}
+
+.about-title {
+  color: #924812;
+}
+.price {
+  color: #924812;
+  font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+  .splide {
+    height: 300px;
+  }
+  .slider-title {
+    font-size: 18px;
+  }
+
+  .title-cont {
+    top: 170px;
+  }
+  .tip-heading {
+    margin: 8px !important;
+  }
+
+  .icon {
+    font-size: 40px;
+  }
+
+  .service-m {
+    margin: 4px !important;
+    padding: 2px !important;
+  }
+  .modal-dialog {
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px !important;
+  }
+  .modal-content {
+    border-radius: 0px !important;
+  }
+  .modal-body {
+    padding: 2px;
+  }
+}
